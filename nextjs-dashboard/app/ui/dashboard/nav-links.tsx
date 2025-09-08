@@ -7,7 +7,7 @@ import {
 } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 
-// styles active link
+// use clsx to style active link
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
 
